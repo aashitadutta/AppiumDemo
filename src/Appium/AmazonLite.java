@@ -43,7 +43,7 @@ public class AmazonLite {
 	    		if(message.contentEquals("aashitadutta@gmail.com")){
 	    			System.out.println("Email matched");
 	    		}
-	    		GenericClass.type(AppiumConstantsAmazonLite.PASSWORD,"Dutta@1994", "Password");
+	    		GenericClass.type(AppiumConstantsAmazonLite.PASSWORD,"", "Password");
 	    		GenericClass.driverWait(40);
 	            GenericClass.click(AppiumConstantsAmazonLite.LOGIN_BUTTON, "Login button");
 	            GenericClass.waitForPageLoad(5000);
